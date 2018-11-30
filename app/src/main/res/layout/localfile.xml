@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getExternalStorageDirectory()" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=".getExternalStorageDirectory()" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getCacheDir()" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getFilesDir()" />
+
+    <Button
+        android:id="@+id/bt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getExternalCacheDir()" />
+
+    <Button
+        android:id="@+id/bt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getCacheDir()" />
+
+</LinearLayout>

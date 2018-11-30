@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#AAAAAA"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp">
+
+        <LinearLayout
+            android:id="@+id/ll_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:textColor="#00FF00"
+                android:id="@+id/chatTv"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="聊天" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_friend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/friendTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发现" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_contact"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/contactTv"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通讯录" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_tabline"
+        android:layout_width="10dp"
+        android:layout_height="3dp"
+        android:background="@drawable/tabline" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/btn_bg_lightgray" />
+    <LinearLayout
+        android:id="@+id/ll_select_year"
+        style="@style/system_macth_wrap"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            style="@style/system_2wrap"
+            android:text="选择学年"
+            android:textColor="@color/btn_bg_gray"
+            android:textSize="@dimen/dimen_15" />
+
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:textSize="15sp" />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/left_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/btn_bg_lightgray" />
+
+</LinearLayout>

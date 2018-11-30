@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/yellow">
+
+
+    <com.dgl.www.my.customView.wave.WaveView
+        android:background="@color/app_theme_color"
+        android:id="@+id/wave"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <TextView
+        android:layout_marginTop="150dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="一起来冲浪"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

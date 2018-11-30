@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MyDemo</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="transaction_orderdetail_adress">请输入详细地址</string>
+    <string name="transaction_orderdetail_adress_name">收货人:</string>
+    <string name="transaction_orderdetail_adress_hint_name">请输入收货人名称</string>
+    <string name="transaction_orderdetail_adress_phone">联系电话:</string>
+    <string name="transaction_orderdetail_adress_hint_phone">请输入手机号码</string>
+    <string name="transaction_orderdetail_adress_content">详细地址:</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_data">没有找到符合条件的房源</string>
+
+</resources>

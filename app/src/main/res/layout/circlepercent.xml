@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 使用自定义命名空间namespace，ccc是该控件名的首字母缩写，可以随意取 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ccc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ccc后面的属性名对应attrs.xml文件中的自定义属性名 -->
+    <com.dgl.www.my.customView.circlePercent.CirclePercentView
+        android:id="@+id/circlePercentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ccc:arcColor="#ffee00"
+        ccc:arcWidth="@dimen/activity_horizontal_margin"
+        ccc:circleBg="#8e29fa"
+        ccc:percentTextColor="#ffee00"
+        ccc:percentTextSize="16sp"
+        ccc:radius="100dp" />
+</RelativeLayout>

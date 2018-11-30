@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mydemo</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="pull_to_refresh">pull_to_refresh</string>
+    <string name="release_to_refresh">release_to_refresh</string>
+    <string name="refreshing">refreshing…</string>
+    <string name="not_updated_yet">not_updated_yet</string>
+    <string name="updated_at">updated_at%1$s前</string>
+    <string name="updated_just_now">updated_just_now</string>
+    <string name="time_error">time_error</string>
+</resources>

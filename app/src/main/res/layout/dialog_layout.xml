@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="18dp"
+        android:text="toast" />
+
+    <Button
+        android:id="@+id/showToast"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="18dp"
+        android:text="showToast" />
+
+    <Button
+        android:id="@+id/showTopToast"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="18dp"
+        android:text="showTopToast" />
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background" >
+
+    <RelativeLayout
+        android:id="@+id/share_to_wx_title_layout"
+        style="@style/TitleStyle" >
+
+        <TextView
+            style="@style/titleTextStyle"
+            android:text="分享给好友" />
+
+        <ImageView
+            android:id="@+id/share_to_wx_btn_back"
+            style="@style/left_title_style"
+            android:src="@drawable/public_back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/share_to_wx_code_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_to_wx_title_layout"
+        android:background="@color/white"
+        android:paddingBottom="20dp" >
+
+        <ImageView
+            android:id="@+id/share_to_wx_code"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:maxHeight="185dp"
+            android:maxWidth="185dp" />
+
+        <TextView
+            android:id="@+id/share_to_wx_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/share_to_wx_code"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="15dp"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/share_to_wx_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_to_wx_code_layout"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="@dimen/common_margin_middle"
+        android:text="把和教育分享到好友:"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_to_wx_text"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/share_to_wx_friends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/share_friends_selector" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="微信朋友圈"
+                    android:textColor="@color/share_background_51"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/share_to_wx_weixin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/share_weixin_selector" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="微信好友"
+                    android:textColor="@color/share_background_51"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

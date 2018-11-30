@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">我</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+
+    <string name="pull_to_refresh">下拉可以刷新china</string>
+    <string name="release_to_refresh">释放立即刷新china</string>
+    <string name="refreshing">正在刷新china…</string>
+    <string name="not_updated_yet">暂未更新过china</string>
+    <string name="updated_at">上次更新于%1$s前china</string>
+    <string name="updated_just_now">刚刚更新china</string>
+    <string name="time_error">时间有问题china</string>
+</resources>

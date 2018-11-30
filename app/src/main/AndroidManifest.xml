@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dgl.www.my">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 摄像头、手电筒 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+    <!-- 腾讯X5内核 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!--允许程序打开网络套接字-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--在Android4.4系统之前,访问SD卡的应用关联目录也是要声明权限的,从4.4开始不再需要权限生命。
+        为了兼容老版本系统的手机,需要添加权限。-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--允许程序获取网络状态-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--允许程序访问WiFi网络信息-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--允许程序读写手机状态和身份-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--允许程序访问CellID或WiFi热点来获取粗略的位置-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name="com.dgl.www.my.base.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme">
+        <activity android:name="com.dgl.www.my.MainActivity"></activity>
+        <activity android:name=".TwoDialogActivity"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.MyTextWatcher"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.NormalWebview"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.TencentX5"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.AlphaActionBar"></activity>
+        <activity android:name="com.dgl.www.my.callback.B"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.Translucent"></activity>
+        <activity android:name="com.dgl.www.my.notification.MyNotification"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.InputActivity"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.ShowHtml"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.DrawMesure"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.NinePng"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.ScaleTypeActivity"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.SpannableStringActivity"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.GetPicture">
+        </activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.ShapeActivity"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.LocalFile"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.ImageActivity"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.OnTouchActivity"></activity>
+        <activity android:name="com.dgl.www.my.expandable.Myexpandable"></activity>
+        <activity android:name="com.dgl.www.my.Contacts.ContactsSortKey"></activity>
+        <activity android:name="com.dgl.www.my.weixinHome.WinxinMainActivity"></activity>
+        <activity android:name="com.dgl.www.my.emoji.ChatActivity"></activity>
+        <activity android:name="com.dgl.www.my.listViewPage.ListFrashActivity"></activity>
+        <activity android:name="com.dgl.www.my.listViewPage.PullToRefreshListViewActivity"></activity>
+        <activity android:name="com.dgl.www.my.wxapi.ShareToWX"></activity>
+        <activity android:name="com.dgl.www.my.netstatus.NetStatusActivity"></activity>
+        <activity android:name="com.dgl.www.my.crash.CrashActivity"></activity>
+        <activity android:name="com.dgl.www.my.volley.VolleyAcitvity"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.WindowManagerActivity"></activity>
+        <activity android:name="com.dgl.www.my.qrscan.QrscanActivity"></activity>
+        <activity android:name="com.dgl.www.my.materialDesign.MaterialDesignActivity"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.ToastActivity"></activity>
+        <activity android:name="com.dgl.www.my.miAd.MiAdActivity"></activity>
+        <activity android:name=".video.PlayVideoActivity"></activity>
+        <activity android:name=".meituanfenlei.ExpandActivity"></activity>
+        <activity android:name=".okhttp.OkHttpActivity"></activity>
+        <activity android:name=".customView.ViewOneActivity"></activity>
+        <activity android:name=".customView.ColorMatrixActivity"></activity>
+        <activity android:name=".customView.circlePercent.CirclePercentActivity">
+        </activity>
+        <activity android:name=".customView.animator.AnimatorActivity"></activity>
+        <activity android:name=".customView.scroll.DragActivity"></activity>
+        <activity android:name=".knowledgePoint.CreateChooserActivity"></activity>
+        <activity android:name=".camera2.Camera2Activity"
+            android:theme="@style/FullWindows"></activity>
+        <activity android:name=".virtualKeyboardPassword.TwoPswkeyboardActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".virtualKeyboardPassword.NormalKeyBoardActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".virtualKeyboardPassword.PaymentKeyBoardActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".ThreeLink.NewAddressActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ThreeLink.hrefYear.HrefYearActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ThreeLink.ThreeLinkActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ThreeLink.month.YearMonthActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.dgl.www.my.knowledgePoint.DialogActivity"
+            android:label="这是一个Activity变成的Dialog"
+            android:theme="@style/Transparent"></activity>
+        <activity
+            android:name="com.dgl.www.my.permission.PermissionActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name="com.dgl.www.my.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.dgl.www.my.recycleView.RecycleViewActivity"
+            android:theme="@android:style/Theme.DeviceDefault"></activity>
+        <activity android:name="com.dgl.www.my.recycleView.StaggaredRecycleView"></activity>
+        <activity android:name="com.dgl.www.my.knowledgePoint.MyViewpager">
+        </activity>
+        <activity android:name=".customView.TestMepcActivity"></activity>
+        <activity android:name=".customView.Thermometer"></activity>
+        <activity android:name=".customView.ThemometerActivity"></activity>
+        <activity android:name=".listviewWithScrollview.ListWithScroll"></activity>
+        <activity android:name=".customView.test.TestViewActivity"/>
+        <activity android:name=".customView.wave.WaveActivity"></activity>
+        <activity android:name=".customView.weather.MyWeatherActivity"></activity>
+        <activity android:name=".customView.MepcMatchActivity"></activity>
+        <activity android:name=".customView.MepcOneooActivity"></activity>
+        <activity android:name=".customView.MepcWrapActivity"></activity>
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <category android:name="android.intent.category.BROWSABLE"></category>
+                <data
+                    android:scheme="http"
+                    android:host="www.xxt.gz.chinamobile.com"
+                    android:pathPrefix="/p">
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.netease.scan.ui.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <service android:name="com.dgl.www.my.netstatus.ListenNetStateService" />
+        <service android:name="com.dgl.www.my.knowledgePoint.WindowService" />
+        <service android:name=".miAd.TestService" />
+        <service android:name=".miAd.TestIntentService" />
+        <!-- 腾讯X5内核 -->
+        <meta-data
+            android:name="QBSDKAppKey"
+            android:value="TRDhb+Ojol3bP7w+JTGTSnXN" />
+
+        <!-- 打开摄像头,在Android7.0系统中 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.dgl.www.my.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <!-- 指定URI的共享路径 -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>
