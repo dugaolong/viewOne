@@ -1,5 +1,7 @@
 package com.dgl;
 
+import java.awt.Polygon;
+import java.awt.geom.Area;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
@@ -45,7 +47,28 @@ public class MyMain {
 //        System.out.println(df.format(Math.sin(r.toRadians(30))));
 //        System.out.println(df.format(Math.sin(r.toRadians(90))));
         try {
-            System.out.println(CustomDES3Util.decode("9tVODBrg4sfHUO/37++RKpFggm0ymau0+5rOvaYuBTu5zSDEXR28cJd/0uqG fFalf0Kbg91rem7ikiEBgU48IoDLz2lTdSQ/aS5BHdDHwZqG93MB2JaEcV+T jHUpaXlmmppRo9gnucC0EXpjBbpvDOj1qYz4Y0h4JcF/9usdtITlgCX69v36 QBPS1cPEXrI4fXZv00buqDkCEAYWqg48UtiUCBbMPldlN7BJOfiZGvYAwZCE Td6fQznnp/liAn1/fHKsnYb7nT1HSd9AeWPU7NAZWJRjp9eODhLS+EtGSpa4 5qeLQwT/6/aShcSb0C+N5UsHNay9+SPDpFTUQUE/qHQWwQ2P7atCgXfUM7qS rX2cJYGCCweoelMI/QSaDJ9ps5AGiZZoMSMBOuGgjynFEfHBLlR7pLUu"));
+
+            Polygon p = new Polygon(new int[]{1,1,3,3},new int[]{0,1,1,0},4);
+            Polygon p1 = new Polygon(new int[]{0,0,2,2},new int[]{0,1,1,0},4);
+            Area area = new Area(p);
+            area.intersect(new Area(p1));
+            System.out.println(area.isEmpty());
+
+
+
+            System.out.println(CustomDES3Util.decode("9tVODBrg4sd9FjPIhf3qkUsb5XSDOUQXtCKFeNfRY+GTWdpT7WNH+8olRD/A JBUa+5q/l6h68OychZochy9RpdCrd3LZkDu613kdS0mS6OTk1qzHeFIUK0yu V8vaDXU1Mkn43DGPQCS2FhOC5Q3xYeNho2E5mrDe9cVgrPqzuzNOW0STdIGv Bo0DKBRBp71CXIVhVVxPBR+WPB+ynzMbsmbO+Hn3R/z2JucsHnDqAWah9loY Fkv4Uw=="));
+////            String locationNowString = "等你放假贷款纠纷的113";
+//            String locationNowString = "上海市杨浦区包头路1135弄4号308室放入肉";
+////            String locationNowString = "陕西省西安市航天基地北长安街229号吉源美郡1c栋2单元21301室";
+//            System.out.println(locationNowString.length());
+//            if(locationNowString.length()>24){
+//                locationNowString = locationNowString.substring(0, 24) + "\n" + locationNowString.substring(24, locationNowString.length());
+//                locationNowString = locationNowString.substring(0, 12) + "\n" + locationNowString.substring(12, locationNowString.length());
+//            }else if(locationNowString.length()>12){
+//                locationNowString = locationNowString.substring(0, 12) + "\n" + locationNowString.substring(12, locationNowString.length());
+//            }
+//            System.out.println(locationNowString);
+
         } catch (Exception e) {
             e.printStackTrace();
         }

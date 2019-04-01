@@ -62,6 +62,7 @@ import com.dgl.www.my.customView.weather.MyWeatherActivity;
 import com.dgl.www.my.emoji.ChatActivity;
 import com.dgl.www.my.emoji.FaceConversionUtil;
 import com.dgl.www.my.expandable.Myexpandable;
+import com.dgl.www.my.foregroundService.StartActivity;
 import com.dgl.www.my.knowledgePoint.AlphaActionBar;
 import com.dgl.www.my.knowledgePoint.CreateChooserActivity;
 import com.dgl.www.my.knowledgePoint.DialogActivity;
@@ -115,12 +116,12 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
     "textview显示html","手机的分辨率信息",".9图","图片显示方式","微信通讯录"
     ,"RecycleView","Expandable","tencentX5Webview","正常Webview"
     ,"SpannableString","拍照/图片","本地文件地址","微信主页面","图片显示","聊天界面"
-    ,"上拉刷新","上拉刷新（框架）","OnTouch事件","分享到微信","监听手机联网状态",
+    ,"上拉刷新","上拉刷新（框架）","OnTouch事件(显示xy坐标)","分享到微信","监听手机联网状态",
             "输出crash日志到手机","Popupwindow","Volley","悬浮","扫描二维码","申请权限",
             "Material Design","不同位置的toast","DialogActivity","MiAdActivity"
     ,"播放视频","okhttp","三级联动","类似美团分类","shape","自定义view","通过改变图片像素点RGB的值的方式，改变图片的颜色"
     ,"圆形百分比","属性动画","view滑动","系统自带的分享","支付宝密码","白屏","测试measure",
-    "温度计1","温度计2","测试view","ListWithScroll","大波浪","天气折线","TextWatcher"};
+    "温度计1","温度计2","测试view","ListWithScroll","大波浪","天气折线","TextWatcher","打开前台service"};
     private ListView listview;
     private LayoutInflater inflater;
     // 退出时间
@@ -495,8 +496,12 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
                 intent.setClass(this,MyWeatherActivity.class);
                 startActivity(intent);
                 break;
-            case 54://
+            case 54://TextWatcher
                 intent.setClass(this,MyTextWatcher.class);
+                startActivity(intent);
+                break;
+            case 55://打开前台service
+                intent.setClass(this,StartActivity.class);
                 startActivity(intent);
                 break;
         }

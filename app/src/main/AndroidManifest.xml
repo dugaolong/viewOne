@@ -172,6 +172,12 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
+        <activity
+            android:name=".foregroundService.StartActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <service android:name="com.dgl.www.my.foregroundService.ForegroundService"
+            android:priority="1000"/>
+
         <service android:name="com.dgl.www.my.netstatus.ListenNetStateService" />
         <service android:name="com.dgl.www.my.knowledgePoint.WindowService" />
         <service android:name=".miAd.TestService" />
