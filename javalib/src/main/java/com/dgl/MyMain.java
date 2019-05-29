@@ -1,7 +1,5 @@
 package com.dgl;
 
-import java.awt.Polygon;
-import java.awt.geom.Area;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
@@ -48,15 +46,15 @@ public class MyMain {
 //        System.out.println(df.format(Math.sin(r.toRadians(90))));
         try {
 
-            Polygon p = new Polygon(new int[]{1,1,3,3},new int[]{0,1,1,0},4);
-            Polygon p1 = new Polygon(new int[]{0,0,2,2},new int[]{0,1,1,0},4);
-            Area area = new Area(p);
-            area.intersect(new Area(p1));
-            System.out.println(area.isEmpty());
+//            Polygon p = new Polygon(new int[]{1,1,3,3},new int[]{0,1,1,0},4);
+//            Polygon p1 = new Polygon(new int[]{0,0,2,2},new int[]{0,1,1,0},4);
+//            Area area = new Area(p);
+//            area.intersect(new Area(p1));
+//            System.out.println(area.isEmpty());
 
 
 
-            System.out.println(CustomDES3Util.decode("9tVODBrg4sd9FjPIhf3qkUsb5XSDOUQXtCKFeNfRY+GTWdpT7WNH+8olRD/A JBUa+5q/l6h68OychZochy9RpdCrd3LZkDu613kdS0mS6OTk1qzHeFIUK0yu V8vaDXU1Mkn43DGPQCS2FhOC5Q3xYeNho2E5mrDe9cVgrPqzuzNOW0STdIGv Bo0DKBRBp71CXIVhVVxPBR+WPB+ynzMbsmbO+Hn3R/z2JucsHnDqAWah9loY Fkv4Uw=="));
+            System.out.println(CustomDES3Util.decode("9tVODBrg4sfHUO/37++RKpFggm0ymau0JwKpuOuJweOQqAsz9HD46UKy7mHm LqfZwbTDbLuJR3B7y+e9WGboXeWXyKQWJjVBsNsk/YNaS+RshclON0p4qGBN wnf2jgUbA15mINe3XX+bvSa4rq/qX+tye7K+mM70O+afUCb9sZoP+n6gFiDB XGiNaQgyFKAOhwrVfDwMGdGr1jD9ujPhyKcwAKdLVf4W9U34fPCcO9F2nri5 NZBLmjE5qoG2P6CKeUz2dz8Aj+37o9DNqsdylgkeO3vDz/QoZVrXjhxfC1vt UvYlW7nQn6YHCCuDRXdmQqRQUP8jVIdqTAoR1x3apVd+OQOD26l1SjWoJHTl PlNAD6RRCse7cPJ37yWNgVdTdbQMtzbycmheCD0Tvfdz7yXptwyz6s94VLdG Z0WUM47LSxpXLwcV9JTFLqBjIyXIx0lH58xF/iY="));
 ////            String locationNowString = "等你放假贷款纠纷的113";
 //            String locationNowString = "上海市杨浦区包头路1135弄4号308室放入肉";
 ////            String locationNowString = "陕西省西安市航天基地北长安街229号吉源美郡1c栋2单元21301室";
