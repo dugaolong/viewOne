@@ -9,7 +9,7 @@ import android.graphics.BitmapFactory;
 import android.os.Binder;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
-import android.support.v7.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
 
 import com.dgl.www.my.R;
 import com.dgl.www.my.utils.ToastUtil;

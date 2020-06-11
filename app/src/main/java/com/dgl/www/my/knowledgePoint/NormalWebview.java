@@ -28,7 +28,7 @@ public class NormalWebview extends Activity{
     private void initView() {
         webView = (WebView) findViewById(R.id.webview);
 //        webView.loadUrl("file:///android_asset/index.html");
-        webView.loadUrl("http://player.youku.com/embed/XMzQxNzUzOTMxMg==");
+        webView.loadUrl("http://m.miguvideo.com/mgs/msite/prd/index.html?pageId=1f28c75c346848ffb79e12e008974af3&plt=sub&pwId=acc22778b2114c6b93d19637faace3f7&appfloat=migu");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient(){

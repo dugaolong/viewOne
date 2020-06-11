@@ -1,6 +1,8 @@
 package com.dgl;
 
 
+import com.dgl.decode.Base64Custom;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,9 +19,22 @@ public class IMEIGen {
 //        strings = string.split("、");
 //        testA(strings);
 //        System.out.print(strings.length);
-        changeOldNumber("19999999999","1220*****22");
+//        changeOldNumber("19999999999","1220*****22");
+
+//        System.out.print(Base64Custom.encodeToString("{\"packageName\":\"qtone.xxt.gz\"}"));
     }
 
+    public boolean aaa(){
+
+        return true;
+    }
+
+
+    public void bbb(int inttt){
+        if(inttt>10){
+            System.out.print("sssssssss");
+        }
+    }
     public static void changeOldNumber(String oldNum,String newNum){
         char[] chars = oldNum.toCharArray();
         char[] chars2 = newNum.toCharArray();

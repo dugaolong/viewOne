@@ -27,8 +27,6 @@ import java.util.List;
 public class MyViewpager extends Activity {
     private ViewPager mViewPager;
     private List<ImageView> mImages;
-    private EdgeEffectCompat leftEdge;
-    private EdgeEffectCompat rightEdge;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +34,6 @@ public class MyViewpager extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.viewpager);
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
-        initViewPager();
         mImages = new ArrayList<>();
         ImageView iv1 = new ImageView(this);
         ImageView iv2 = new ImageView(this);
@@ -97,26 +94,12 @@ public class MyViewpager extends Activity {
             @Override
             public void onPageScrollStateChanged(int position) {
                 //判断当前页数是否==总页数
-                if(rightEdge!=null&&!rightEdge.isFinished()){//到了最后一张并且还继续拖动，出现蓝色限制边条了
+                if(position==mImages.size()-1){//到了最后一张并且还继续拖动，出现蓝色限制边条了
                     startActivity(new Intent(MyViewpager.this, MainActivity.class));
                     MyViewpager.this.finish();
                 }
             }
         });
-    }
-    private void initViewPager() {
-        try {
-            Field leftEdgeField = mViewPager.getClass().getDeclaredField("mLeftEdge");
-            Field rightEdgeField = mViewPager.getClass().getDeclaredField("mRightEdge");
-            if (leftEdgeField != null && rightEdgeField != null) {
-                leftEdgeField.setAccessible(true);
-                rightEdgeField.setAccessible(true);
-                leftEdge = (EdgeEffectCompat) leftEdgeField.get(mViewPager);
-                rightEdge = (EdgeEffectCompat) rightEdgeField.get(mViewPager);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
 }

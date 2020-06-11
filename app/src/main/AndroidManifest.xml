@@ -3,9 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.dgl.www.my">
 
-
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -13,7 +10,6 @@
     <!-- 摄像头、手电筒 -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
 
@@ -21,11 +17,6 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-feature android:name="android.hardware.camera.flash" />
     <!-- 腾讯X5内核 -->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <!-- 硬件加速对X5视频播放非常重要，建议开启 -->
     <uses-permission android:name="android.permission.GET_TASKS" />
 
@@ -46,7 +37,6 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="android.permission.GET_TASKS" />
 
     <application
         android:name="com.dgl.www.my.base.MyApplication"
@@ -56,7 +46,6 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme">
         <activity android:name="com.dgl.www.my.MainActivity"></activity>
-        <activity android:name=".TwoDialogActivity"></activity>
         <activity android:name="com.dgl.www.my.knowledgePoint.MyTextWatcher"></activity>
         <activity android:name="com.dgl.www.my.knowledgePoint.NormalWebview"></activity>
         <activity android:name="com.dgl.www.my.knowledgePoint.TencentX5"></activity>
