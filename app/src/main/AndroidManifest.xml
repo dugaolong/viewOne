@@ -139,6 +139,7 @@
         <activity android:name=".customView.MepcMatchActivity"></activity>
         <activity android:name=".customView.MepcOneooActivity"></activity>
         <activity android:name=".customView.MepcWrapActivity"></activity>
+        <activity android:name=".knowledgePoint.WindowVisibleDisplayFrame"></activity>
         <activity android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>

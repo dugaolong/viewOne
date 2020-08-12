@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WiewOne.iml" filepath="$PROJECT_DIR$/WiewOne.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javalib/javalib.iml" filepath="$PROJECT_DIR$/javalib/javalib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib-qr-scan/lib-qr-scan.iml" filepath="$PROJECT_DIR$/lib-qr-scan/lib-qr-scan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WiewOne.iml" filepath="$PROJECT_DIR$/WiewOne.iml" group="WiewOne" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="WiewOne/app" />
+      <module fileurl="file://$PROJECT_DIR$/javalib/javalib.iml" filepath="$PROJECT_DIR$/javalib/javalib.iml" group="WiewOne/javalib" />
+      <module fileurl="file://$PROJECT_DIR$/lib-qr-scan/lib-qr-scan.iml" filepath="$PROJECT_DIR$/lib-qr-scan/lib-qr-scan.iml" group="WiewOne/lib-qr-scan" />
     </modules>
   </component>
 </project>

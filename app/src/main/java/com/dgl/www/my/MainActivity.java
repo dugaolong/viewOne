@@ -84,6 +84,7 @@ import com.dgl.www.my.knowledgePoint.TencentX5;
 import com.dgl.www.my.knowledgePoint.ToastActivity;
 import com.dgl.www.my.knowledgePoint.Translucent;
 import com.dgl.www.my.knowledgePoint.WindowManagerActivity;
+import com.dgl.www.my.knowledgePoint.WindowVisibleDisplayFrame;
 import com.dgl.www.my.listViewPage.ListFrashActivity;
 import com.dgl.www.my.listViewPage.PullToRefreshListViewActivity;
 import com.dgl.www.my.listviewWithScrollview.ListWithScroll;
@@ -121,7 +122,7 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
             "Material Design","不同位置的toast","DialogActivity","MiAdActivity"
     ,"播放视频","okhttp","三级联动","类似美团分类","shape","自定义view","通过改变图片像素点RGB的值的方式，改变图片的颜色"
     ,"圆形百分比","属性动画","view滑动","系统自带的分享","支付宝密码","白屏","测试measure",
-    "温度计1","温度计2","测试view","ListWithScroll","大波浪","天气折线","TextWatcher","打开前台service"};
+    "温度计1","温度计2","测试view","ListWithScroll","大波浪","天气折线","TextWatcher","打开前台service","可视区域高度"};
     private ListView listview;
     private LayoutInflater inflater;
     // 退出时间
@@ -502,6 +503,10 @@ public class MainActivity extends BaseActivity implements AdapterView.OnItemClic
                 break;
             case 55://打开前台service
                 intent.setClass(this,StartActivity.class);
+                startActivity(intent);
+                break;
+            case 56://可视区域高度
+                intent.setClass(this, WindowVisibleDisplayFrame.class);
                 startActivity(intent);
                 break;
         }
