@@ -53,13 +53,15 @@ public class MyTextView extends View {
         rectPaint.setColor(Color.GREEN);
         Rect rect = new Rect(100,300,300,400);
         canvas.drawRect(rect,rectPaint);
+        canvas.save();
+        canvas.rotate(30);
         ////空心rect
         canvas.drawText("空心rect", 400f, 260f, textPaint);
         rectPaint.setStrokeWidth(20f);
         rectPaint.setStyle(Paint.Style.STROKE);
         Rect rectSTROKE = new Rect(400,300,600,400);
         canvas.drawRect(rectSTROKE,rectPaint);
-
+        canvas.restore();
         ////实心arc
         canvas.drawText("实心arc,useCenter", 100f, 460f, textPaint);
         Paint arcPaint = new Paint(Paint.ANTI_ALIAS_FLAG);//打开抗锯齿

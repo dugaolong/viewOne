@@ -62,21 +62,9 @@
     <last-search-timestamp>1572227155164</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c9e3375-a2cf-4210-84c8-ee465409646e" name="Default" comment="滑动，进main页面">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/knowledgePoint/WindowVisibleDisplayFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/knowledgePoint/executor/ExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/window_visible.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2c9e3375-a2cf-4210-84c8-ee465409646e" name="Default" comment="可视区域高度">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiewOne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WiewOne.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalib/javalib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javalib/javalib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-qr-scan/lib-qr-scan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lib-qr-scan/lib-qr-scan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/customView/test/MyTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/customView/test/MyTextView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +74,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="4.65_720p_API_22" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="629b2578" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -501,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591873985396</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="可视区域高度">
+      <created>1597197851653</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597197851653</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -521,9 +516,14 @@
     <MESSAGE value="des3" />
     <MESSAGE value="适配AS 3.4版本" />
     <MESSAGE value="滑动，进main页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="滑动，进main页面" />
+    <MESSAGE value="可视区域高度" />
+    <option name="LAST_COMMIT_MESSAGE" value="可视区域高度" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="368" y="29" key="CommitChangelistDialog2" timestamp="1597197851454">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="368" y="29" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1597197851454" />
     <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1597197806316">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
@@ -540,6 +540,14 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1597197806315" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1597197852824">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1597197852824" />
+    <state width="300" height="84" key="javadoc.popup.new" timestamp="1597198144563">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="300" height="84" key="javadoc.popup.new/0.23.1440.812@0.23.1440.812" timestamp="1597198144563" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
