@@ -129,6 +129,7 @@
         <activity android:name="com.dgl.www.my.recycleView.StaggaredRecycleView"></activity>
         <activity android:name="com.dgl.www.my.knowledgePoint.MyViewpager">
         </activity>
+        <activity android:name=".animations.AnimationsActivity"></activity>
         <activity android:name=".customView.TestMepcActivity"></activity>
         <activity android:name=".customView.Thermometer"></activity>
         <activity android:name=".customView.ThemometerActivity"></activity>

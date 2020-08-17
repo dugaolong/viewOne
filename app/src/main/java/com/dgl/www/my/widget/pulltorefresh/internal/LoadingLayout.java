@@ -145,7 +145,7 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
         Drawable imageDrawable = null;
         if (attrs.hasValue(R.styleable.PullToRefresh_ptrDrawable)) {
             imageDrawable = attrs.getDrawable(R.styleable.PullToRefresh_ptrDrawable);
-            imageDrawable = context.getResources().getDrawable(R.anim.fresh);
+            imageDrawable = context.getResources().getDrawable(R.drawable.fresh);
         }
 
         // Check Specific Drawable from Attrs, these overrite the generic
@@ -173,7 +173,7 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 
         // If we don't have a user defined drawable, load the default
         if (null == imageDrawable) {
-            imageDrawable = context.getResources().getDrawable(R.anim.fresh);
+            imageDrawable = context.getResources().getDrawable(R.drawable.fresh);
             //imageDrawable = context.getResources().getDrawable(getDefaultDrawableResId());
 
         }

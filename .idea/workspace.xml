@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AvailableLibraryUpdateStorage">
     <library-updates>
@@ -62,9 +62,18 @@
     <last-search-timestamp>1572227155164</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c9e3375-a2cf-4210-84c8-ee465409646e" name="Default" comment="可视区域高度">
+    <list default="true" id="2c9e3375-a2cf-4210-84c8-ee465409646e" name="Default" comment="canvas.save canvas.restore">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/anim_rotate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/customView/test/MyTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/customView/test/MyTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/animations/AnimationsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/animations/AnimationsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/widget/pulltorefresh/internal/LoadingLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dgl/www/my/widget/pulltorefresh/internal/LoadingLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/fresh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fresh.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/animations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/animations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib-qr-scan/lib-qr-scan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lib-qr-scan/lib-qr-scan.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +83,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="629b2578" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_26" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -96,42 +105,9 @@
         <option value="ASClass" />
         <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>idea</find>
-      <find>&lt;item&gt;</find>
-      <find>about_version_code</find>
-      <find>渐变</find>
-      <find>webview</find>
-      <find>NormalWebview</find>
-      <find>mockito</find>
-      <find>Intent.ACTION_VIEW, Uri.parse(url));</find>
-      <find>RecycleAdapter</find>
-      <find>$USER_HOME$/Documents/sdk/ndk-bundle</find>
-      <find>ACCESS_WIFI_STATE</find>
-      <find>FLASHLIGHT</find>
-      <find>ACCESS_NETWORK_STATE</find>
-      <find>WRITE_EXTERNAL_STORAGE</find>
-      <find>READ_PHONE_STATE</find>
-      <find>contact</find>
-      <find>TwoDialogActivity</find>
-      <find>GET_TASKS</find>
-      <find>show_head_toast_bg</find>
-      <find>SUPPORTED_ABIS</find>
-      <find>rightEdge</find>
-      <find>屏幕高度</find>
-      <find>height</find>
-      <find>getHeight()</find>
-      <find>onCreate</find>
-      <find>ActivityCompat</find>
-      <find>Activity extends</find>
-      <find>thread</find>
-      <find>Executors.</find>
-      <find>密码是加盐的md5 ，但是盐值是随机的，每次登录时怎么验证明文的md5匹</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -152,6 +128,8 @@
     <property name="DEBUGGABLE_DEVICE" value="xiaomi-redmi_note_7-629b2578" />
     <property name="DEBUGGABLE_PROCESS" value="com.dgl.www.my" />
     <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_26" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-08-17T10:27:21.965Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
@@ -160,8 +138,8 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Documents/sdk" />
     <property name="device.picker.selection" value="629b2578" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1597195906043" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1597659832058" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -175,16 +153,18 @@
     <option name="LAST_EDITED_SIGNING_CONFIG" value="realease" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dgl.decode" />
       <recent name="com.dgl.www.my.knowledgePoint" />
       <recent name="com.dgl.www.my.foregroundService" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -496,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597197851653</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="canvas.save canvas.restore">
+      <created>1597199982884</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597199982884</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -517,37 +504,50 @@
     <MESSAGE value="适配AS 3.4版本" />
     <MESSAGE value="滑动，进main页面" />
     <MESSAGE value="可视区域高度" />
-    <option name="LAST_COMMIT_MESSAGE" value="可视区域高度" />
+    <MESSAGE value="canvas.save canvas.restore" />
+    <option name="LAST_COMMIT_MESSAGE" value="canvas.save canvas.restore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="29" key="CommitChangelistDialog2" timestamp="1597197851454">
+    <state x="308" y="191" key="AndroidCreateResourceDirectoryDialog" timestamp="1597662218393">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="368" y="29" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1597197851454" />
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1597197806316">
+    <state x="308" y="191" key="AndroidCreateResourceDirectoryDialog/0.23.1440.812@0.23.1440.812" timestamp="1597662218393" />
+    <state x="368" y="29" key="CommitChangelistDialog2" timestamp="1597199982296">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1597197806316" />
-    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1597197806315">
+    <state x="368" y="29" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1597199982296" />
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1597661300884">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1597197806315" />
-    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1597197806314">
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1597661300884" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1597661300884">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1597197806314" />
-    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1597197806315">
+    <state width="1398" height="200" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1597661300884" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1597661300883">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1597197806315" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1597197852824">
+    <state width="1398" height="200" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1597661300883" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1597661300884">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1597197852824" />
-    <state width="300" height="84" key="javadoc.popup.new" timestamp="1597198144563">
+    <state width="1398" height="200" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1597661300884" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1597660435769">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="300" height="84" key="javadoc.popup.new/0.23.1440.812@0.23.1440.812" timestamp="1597198144563" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.812@0.23.1440.812" timestamp="1597660435769" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1597199984595">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1597199984595" />
+    <state x="374" y="186" width="692" height="486" key="find.popup" timestamp="1597660731866">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="374" y="186" width="692" height="486" key="find.popup/0.23.1440.812@0.23.1440.812" timestamp="1597660731866" />
+    <state width="300" height="84" key="javadoc.popup.new" timestamp="1597663429527">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="300" height="84" key="javadoc.popup.new/0.23.1440.812@0.23.1440.812" timestamp="1597663429527" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

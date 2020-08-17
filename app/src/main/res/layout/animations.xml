@@ -4,9 +4,26 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/dimen_50"
+        android:layout_height="@dimen/dimen_50"
         android:scaleType="center"
         android:id="@+id/iv_animations"/>
 
+
+
+
+    <ImageView
+        android:src="@drawable/aaa"
+        android:layout_width="@dimen/dimen_50"
+        android:layout_height="@dimen/dimen_50"
+        android:scaleType="center"
+        android:id="@+id/iv_anim_rotate"/>
+
+
+    <Button
+        android:onClick="startAn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        />
 </LinearLayout>
